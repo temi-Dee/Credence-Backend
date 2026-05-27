@@ -18,8 +18,10 @@ export default defineConfig({
         'src/db/repositories/auditLogsRepository.ts',
       ],
       thresholds: {
-        statements: 20,
-        lines: 20,
+        statements: 95,
+        lines: 95,
+        branches: 95,
+        functions: 95,
       },
     },
   },
